@@ -4,16 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    animation: changeColor 10s linear infinite;
-}
-
-@keyframes changeColor {
-    0% { background-color: red; }
-    20% { background-color: orange; }
-    40% { background-color: yellow; }
-    60% { background-color: green; }
-    80% { background-color: blue; }
-    100% { background-color: purple; }
+    background-color: lightblue;
 }
 
 .login-box {
